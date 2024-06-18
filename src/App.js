@@ -4,7 +4,12 @@ import logo from "./imeges/Logo.png";
 import userpic from "./imeges/Group 11 1.png";
 import Recycle from "./imeges/product-chain 1.png";
 import UserPic2 from "./imeges/About Me.png";
-import Projectpic from "./imeges/Image.png";
+import Projectpic from "./imeges/Imag23.png"
+import ProjectPic1 from "./imeges/Image.png"
+import ProjectPic2 from "./imeges/Image1.png"
+import Skill1 from "./imeges/feather-pen 1 (1).png"
+import Skill2 from "./imeges/feather-pen 1.png"
+
 
 function App() {
   return (
@@ -23,6 +28,8 @@ function App() {
         />
         <Button type="primary">Contact me</Button>
       </Flex>
+       
+       
 
       <Flex className="homepage" id="Home">
         <Row className="user">
@@ -42,6 +49,7 @@ function App() {
           </Col>
         </Row>
       </Flex>
+      {/* skill page */}
 
       <Flex vertical className="skills" id="Skills">
         <div>
@@ -60,9 +68,19 @@ function App() {
             </p>
           </Col>
           <Col className="skill" xs={24} sm={10} md={8} lg={5}>
-            <Image width={50} src={Recycle} alt="recylce" />
+            <Image width={50} src={Skill1} alt="recylce" />
             <p>
-              <strong>Strategy & Direction</strong>{" "}
+              <strong>Webflow devolopment</strong>{" "}
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </Col>
+          <Col className="skill" xs={24} sm={10} md={8} lg={5}>
+            <Image width={50} src={Skill2} alt="recylce" />
+            <p>
+              <strong>UI and UX design </strong>{" "}
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -72,17 +90,7 @@ function App() {
           <Col className="skill" xs={24} sm={10} md={8} lg={5}>
             <Image width={50} src={Recycle} alt="recylce" />
             <p>
-              <strong>Strategy & Direction</strong>{" "}
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
-          </Col>
-          <Col className="skill" xs={24} sm={10} md={8} lg={5}>
-            <Image width={50} src={Recycle} alt="recylce" />
-            <p>
-              <strong>Strategy & Direction</strong>{" "}
+              <strong>branding and logo</strong>{" "}
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -91,11 +99,11 @@ function App() {
           </Col>
         </Row>
       </Flex>
-
+{/* about me page */}
       <Flex vertical className="aboutMe" id="aboutMe">
         <Row justify="space-around" align="middle">
           <Col xs={12} sm={12} md={12} lg={10}>
-            <Image src={UserPic2} width={"100%"} />
+            <Image src={UserPic2} width={"90%"} />
           </Col>
 
           <Col xs={20} sm={20} md={20} lg={10}>
@@ -113,7 +121,7 @@ function App() {
         </Row>
       </Flex>
 
-      <Flex vertical portFolio className="portFolio">
+      <Flex vertical portFolio id="protifolio" className="portFolio">
         <Flex
           justify="space-between"
           align="center"
@@ -134,24 +142,24 @@ function App() {
           <Col xs={20} lg={6}>
             <Card hoverable cover={<Image alt="example" src={Projectpic} />}>
               <Card.Meta
-                title="Europe Street beat"
-                description="www.instagram.com"
+                title="App dashboard"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
               />
             </Card>
           </Col>
           <Col  xs={20}  lg={6}>
-            <Card hoverable cover={<Image alt="example" src={Projectpic} />}>
+            <Card hoverable cover={<Image alt="example" src={ProjectPic1} />}>
               <Card.Meta
-                title="Europe Street beat"
-                description="www.instagram.com"
+                title="Ahuse"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
               />
             </Card>
           </Col>
           <Col  xs={20}  lg={6}>
-            <Card hoverable cover={<Image alt="example" src={Projectpic} />}>
+            <Card hoverable cover={<Image alt="example" src={ProjectPic2} />}>
               <Card.Meta
-                title="Europe Street beat"
-                description="www.instagram.com"
+                title="Easy Rent"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
               />
             </Card>
           </Col>
