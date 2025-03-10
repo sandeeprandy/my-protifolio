@@ -19,7 +19,7 @@ import "./App.css";
 import { Image, Button, Anchor, Flex, Row, Col, Card } from "antd";
 import logo from "./imeges/Logo.png";
 import userpic from "./imeges/sandy2.png";
-import UserPic2 from "./imeges/About Me.png";
+import UserPic2 from "./imeges/aboutMe.png";
 import Projectpic from "./imeges/Imag23.png";
 import ProjectPic1 from "./imeges/Image.png";
 import ProjectPic2 from "./imeges/Image1.png";
