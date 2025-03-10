@@ -55,7 +55,15 @@ function App() {
             { key: "aboutMe", href: "#aboutMe", title: "About me" },
           ]}
         />
-        <Button type="primary">Contact me</Button>
+        <Button type="primary">
+          <a
+            href="https://drive.google.com/file/d/1-F3sY-RbJe5VsUqhOnrWbe9c7_MW5zGi/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Resume
+          </a>
+        </Button>
       </Flex>
 
       <Flex className="homepage" id="Home">
@@ -226,9 +234,13 @@ function App() {
           </Flex>
           <Flex vertical>
             {" "}
-            <a href="https://github.com/sandeeprandy" target="_blank" rel="noopener noreferrer">
-  <Button type="primary">Visit My Git Hub</Button>
-</a>
+            <a
+              href="https://github.com/sandeeprandy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button type="primary">Visit My Git Hub</Button>
+            </a>
           </Flex>
         </Flex>
 
