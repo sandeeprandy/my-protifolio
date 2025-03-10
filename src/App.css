@@ -1,91 +1,126 @@
-
-.App{
+.App {
   width: 100%;
 }
-.navBars{
-  position:fixed; 
+.navBars {
+  position: fixed;
   padding: 12px;
   width: 100%;
   background-color: rgb(230, 230, 253);
   /* border: 2px solid blueviolet; */
   height: 5vh;
   align-items: center;
-  z-index: 1000
-
+  z-index: 1000;
 }
-.homepage{
- align-items: center;
-  background-image: linear-gradient(to bottom,#d8e2e6 , white);
+.homepage {
+  align-items: center;
+  background-image: linear-gradient(to bottom, #d8e2e6, white);
 }
-.userpic{
-  margin-top: 10%;
-}
-.userDetals {
-  text-align: start;
- align-self: center;
- width: 100%;
- height: 100%;
- margin-top:15%;
- 
-}
-.user{
+.userpic {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Ensure it takes full height */
 }
-.skillcntr{
+
+.userDetals {
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Aligns items in a column */
+  justify-content: center; /* Centers items vertically */
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Ensures text is centered */
+  height: 100%; /* Ensure it takes full height */
+  width: 100%; /* Ensure it takes full width */
+  padding: "65px";
+}
+
+.user {
+  display: flex;
+  align-items: center; /* Ensures vertical centering */
+  justify-content: center; /* Ensures horizontal centering */
+  min-height: 100vh; /* Ensures the full viewport height */
+  padding: 12px;
+}
+
+.skillcntr {
   padding: 15px;
   justify-content: space-around;
 }
-.skill{
-  background-color:#dbedf5;
+.skill {
+  background-color: #dbedf5;
   border-radius: 5px;
   padding: 15px;
   border-bottom: 4px solid #026b6e;
-  
 }
 .skills {
   padding: 25px;
-  text-align:start;
-
+  text-align: start;
 
 }
-.protiHead{
+.protiHead {
   width: 100%;
 }
-.portFolio{
+.portFolio {
   width: 100%;
+}
+.skillcntr {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between skill cards */
+}
+
+.skill {
+  text-align: center;
+  margin: 10px; /* Adds spacing around each skill card */
+}
+ul {
+  padding: 0; /* Removes extra padding */
+  margin: 0; /* Removes extra margin */
+  list-style-position: inside; /* Keeps bullet points aligned properly */
+}
+li {
+  margin-bottom: 5px; /* Adjust space between list items */
 }
 
 
+.rounded-icon {
+  width: 80px; /* Adjust size as needed */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Centers the box */
+}
 
-@media (max-width:768px) { 
+.rounded-icon svg {
+  font-size: 40px; /* Icon size */
+  color: #5e3bee; /* Customize icon color */
+}
 
-  .navBars{
+@media (max-width: 768px) {
+  .navBars {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 20vh;
     position: fixed;
-
   }
-  .homepage{
-    width: 100%; 
-   align-items: center;
-    background-image: linear-gradient(to bottom,#d8e2e6 , white);
+  .homepage {
+    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #d8e2e6, white);
   }
-   
-   
 
   .userDetals {
-   text-align: start;
-   align-self: center;
-   width: 100%;
-   height: 100%;
-   margin-top:30vh;
-   
+    text-align: start;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30vh;
   }
-  .protFolioNav{
-    
+  .protFolioNav {
   }
 }
