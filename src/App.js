@@ -160,7 +160,7 @@ function App() {
       <Flex vertical className="aboutMe" id="aboutMe">
         <Row justify="space-around" align="middle">
           <Col xs={12} sm={12} md={12} lg={10}>
-            <Image src={UserPic2} width={"90%"} />
+            <Image src={UserPic2} width={"100%"} />
           </Col>
 
           <Col sm={12} md={24} lg={12} className="userDetals">
