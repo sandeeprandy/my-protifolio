@@ -105,12 +105,12 @@ function App() {
               </motion.h1>
 
               <p style={{ fontSize: "20px" }}>
-                Full Stack Developer with 2+ years of experience and strong frontend expertise. 
-                I specialize in building responsive, high-performance UI systems and scalable 
-                web applications using React.js, Next.js, Angular, and TypeScript. With solid 
-                backend fundamentals in Node.js, Express, MongoDB, and PostgreSQL, I deliver 
-                complete solutions. Proficient in AWS, API integrations, and performance optimization. 
-                Immediate Joiner with proven expertise in reducing development time by 30% through 
+                Full Stack Developer with 2+ years of experience and strong frontend expertise.
+                I specialize in building responsive, high-performance UI systems and scalable
+                web applications using React.js, Next.js, Angular, and TypeScript. With solid
+                backend fundamentals in Node.js, Express, MongoDB, and PostgreSQL, I deliver
+                complete solutions. Proficient in AWS, API integrations, and performance optimization.
+                Immediate Joiner with proven expertise in reducing development time by 30% through
                 reusable architecture.
               </p>
             </motion.div>
@@ -190,18 +190,18 @@ function App() {
               </h1>
               <p>
                 I'm currently an <strong>Associate Web Developer at{" "}
-                <a
-                  href="https://strayv.ai/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "#5E3BEE",
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Strayv.ai
-                </a></strong> (Oct 2025–Present), where I build responsive web applications with cutting-edge UI/UX, 
+                  <a
+                    href="https://stryv.ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "#5E3BEE",
+                      textDecoration: "none",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Strayv.ai
+                  </a></strong> (Oct 2025–Present), where I build responsive web applications with cutting-edge UI/UX,
                 optimize performance (improved Lighthouse scores from 72 to 94), and work with modern tech stacks.
               </p>
               <p>
@@ -218,7 +218,7 @@ function App() {
                 >
                   HyperThink Systems
                 </a>{" "}
-                (Oct 2024–Sep 2025), where I developed enterprise dashboards, smart parking systems, 
+                (Oct 2024–Sep 2025), where I developed enterprise dashboards, smart parking systems,
                 and reduced code duplication by 35% using reusable components and architecture.
               </p>
               <h2>Key Accomplishments:</h2>
@@ -244,7 +244,7 @@ function App() {
       {/* Experience Section */}
       <Flex vertical className="experience" style={{ backgroundColor: "#f5f5f5", padding: "50px 20px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", width: "100%" }}>
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -252,7 +252,7 @@ function App() {
           >
             Professional Experience
           </motion.h1>
-          
+
           <Row gutter={[20, 20]} style={{ marginBottom: "30px" }}>
             <Col xs={24} sm={24} md={24} lg={24}>
               <motion.div
@@ -260,8 +260,8 @@ function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <Card 
-                  style={{ 
+                <Card
+                  style={{
                     borderLeft: "4px solid #5E3BEE",
                     boxShadow: "0 4px 12px rgba(94, 59, 238, 0.1)",
                     transition: "all 0.3s ease"
@@ -298,8 +298,8 @@ function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
-                <Card 
-                  style={{ 
+                <Card
+                  style={{
                     borderLeft: "4px solid #5E3BEE",
                     boxShadow: "0 4px 12px rgba(94, 59, 238, 0.1)",
                     transition: "all 0.3s ease"
@@ -336,8 +336,8 @@ function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                <Card 
-                  style={{ 
+                <Card
+                  style={{
                     borderLeft: "4px solid #5E3BEE",
                     boxShadow: "0 4px 12px rgba(94, 59, 238, 0.1)",
                     transition: "all 0.3s ease"
@@ -404,7 +404,7 @@ function App() {
         </Flex>
 
         <div style={{ padding: "20px", marginBottom: "40px" }}>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: -10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -420,10 +420,10 @@ function App() {
                 transition={{ duration: 0.6 }}
                 whileHover={{ y: -8 }}
               >
-                <Card 
-                  hoverable 
-                  cover={<Image alt="InterviewPro" src={Projectpic} />} 
-                  style={{ 
+                <Card
+                  hoverable
+                  cover={<Image alt="InterviewPro" src={Projectpic} />}
+                  style={{
                     borderTop: "3px solid #5E3BEE",
                     boxShadow: "0 4px 15px rgba(0,0,0,0.1)",
                     transition: "all 0.3s ease"
@@ -448,8 +448,8 @@ function App() {
                       <span style={{ color: "#4A4A4A" }}>
                         <strong>Tech:</strong> Next.js, React.js, TypeScript, Framer Motion, Vercel
                         <br />
-                        <strong>Impact:</strong> Built a modern, engaging interview preparation platform with smooth animations and responsive design. 
-                        Achieved Lighthouse SEO scores of 94+ and fast page loads with optimized performance deployed on Vercel. 
+                        <strong>Impact:</strong> Built a modern, engaging interview preparation platform with smooth animations and responsive design.
+                        Achieved Lighthouse SEO scores of 94+ and fast page loads with optimized performance deployed on Vercel.
                         Implemented interactive UI components with Framer Motion for enhanced user engagement.
                       </span>
                     }
@@ -461,7 +461,7 @@ function App() {
         </div>
 
         <div style={{ padding: "20px" }}>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: -10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -477,8 +477,8 @@ function App() {
                 transition={{ duration: 0.6 }}
                 whileHover={{ y: -8 }}
               >
-                <Card 
-                  hoverable 
+                <Card
+                  hoverable
                   cover={<Image alt="Strayv.ai" src={Projectpic} />}
                   style={{
                     boxShadow: "0 4px 15px rgba(0,0,0,0.1)",
@@ -505,7 +505,7 @@ function App() {
                       <span style={{ color: "#4A4A4A" }}>
                         <strong>Tech:</strong> Next.js, React.js, TypeScript, Node.js, Shopify
                         <br />
-                        Built responsive web applications with modern UI/UX. 
+                        Built responsive web applications with modern UI/UX.
                         Improved SEO from 74 to 95. Integrated Sanity CMS and payment systems with clean architecture.
                       </span>
                     }
@@ -520,8 +520,8 @@ function App() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 whileHover={{ y: -8 }}
               >
-                <Card 
-                  hoverable 
+                <Card
+                  hoverable
                   cover={<Image alt="Lulu Powers" src={ProjectPic1} />}
                   style={{
                     boxShadow: "0 4px 15px rgba(0,0,0,0.1)",
@@ -548,7 +548,7 @@ function App() {
                       <span style={{ color: "#4A4A4A" }}>
                         <strong>Tech:</strong> Shopify, React.js, TypeScript, Responsive Design
                         <br />
-                        Customized Shopify storefront with modern UI and smooth interactions. 
+                        Customized Shopify storefront with modern UI and smooth interactions.
                         Lighthouse SEO score improved from 70 to 93. Optimized page speed by 40%.
                       </span>
                     }
@@ -563,7 +563,7 @@ function App() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 whileHover={{ y: -8 }}
               >
-                <Card 
+                <Card
                   hoverable
                   cover={<Image alt="Smart Parking" src={ProjectPic2} />}
                   style={{
@@ -587,7 +587,7 @@ function App() {
                       <span style={{ color: "#4A4A4A" }}>
                         <strong>Tech:</strong> React.js, Redux Toolkit, Angular, REST APIs, Node.js
                         <br />
-                        Enterprise dashboard with real-time live tracking and interactive UI. 
+                        Enterprise dashboard with real-time live tracking and interactive UI.
                         Reduced code duplication by 35% with reusable components and animations using Framer Motion.
                       </span>
                     }
