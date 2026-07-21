@@ -62,7 +62,7 @@ function App() {
         />
         <Button type="primary">
           <a
-            href="https://drive.google.com/file/d/1-F3sY-RbJe5VsUqhOnrWbe9c7_MW5zGi/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1GyFF8-BGM49sXHtn8GpHv9xEaG8RBgmO/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,11 +99,11 @@ function App() {
               </motion.h1>
 
               <p style={{ fontSize: "20px" }}>
-                Results-driven Full Stack Developer with 2+ years of experience building 
-                scalable, AI-powered, SEO-optimized web applications. I specialize in 
-                modern conversational AI platforms, responsive UI systems, and 
-                performance-optimized applications using React.js, Next.js, TypeScript, 
-                Node.js, and more. Immediate Joiner with proven expertise in reducing 
+                Results-driven Full Stack Developer with 2+ years of experience building
+                scalable, AI-powered, SEO-optimized web applications. I specialize in
+                modern conversational AI platforms, responsive UI systems, and
+                performance-optimized applications using React.js, Next.js, TypeScript,
+                Node.js, and more. Immediate Joiner with proven expertise in reducing
                 development time by 30% through reusable architecture.
               </p>
             </motion.div>
@@ -183,18 +183,18 @@ function App() {
               </h1>
               <p>
                 I'm currently an <strong>Associate Web Developer at{" "}
-                <a
-                  href="https://strayv.ai/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "#5E3BEE",
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Strayv.ai
-                </a></strong> (Oct 2025–Present), where I develop scalable AI-powered web applications, 
+                  <a
+                    href="https://strayv.ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "#5E3BEE",
+                      textDecoration: "none",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Strayv.ai
+                  </a></strong> (Oct 2025–Present), where I develop scalable AI-powered web applications,
                 build conversational AI platforms, and optimize performance (improved Lighthouse scores from 72 to 94).
               </p>
               <p>
@@ -211,7 +211,7 @@ function App() {
                 >
                   HyperThink Systems
                 </a>{" "}
-                (Oct 2024–Sep 2025), where I developed enterprise dashboards, smart parking systems, 
+                (Oct 2024–Sep 2025), where I developed enterprise dashboards, smart parking systems,
                 and reduced repeated code by 35% using reusable architecture.
               </p>
               <h2>Key Accomplishments:</h2>
@@ -238,7 +238,7 @@ function App() {
       <Flex vertical className="experience" style={{ backgroundColor: "#f5f5f5", padding: "50px 20px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", width: "100%" }}>
           <h1 style={{ marginBottom: "40px", color: "#5E3BEE" }}>Professional Experience</h1>
-          
+
           <Row gutter={[20, 20]} style={{ marginBottom: "30px" }}>
             <Col xs={24} sm={24} md={24} lg={24}>
               <Card style={{ borderLeft: "4px solid #5E3BEE" }}>
@@ -345,7 +345,7 @@ function App() {
                 <Card.Meta
                   title={
                     <a
-                      href="https://interviewpro.vercel.app/"
+                      href="https://interviewpro.pro/"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{
@@ -361,8 +361,8 @@ function App() {
                     <span style={{ color: "#4A4A4A" }}>
                       <strong>Tech:</strong> Next.js, React.js, TypeScript, Vercel, SEO
                       <br />
-                      <strong>Impact:</strong> Engineered a modern interview preparation platform focusing on conceptual comprehension. 
-                      Achieved excellent SEO discoverability and fast page loads with production-ready performance optimization deployed on Vercel. 
+                      <strong>Impact:</strong> Engineered a modern interview preparation platform focusing on conceptual comprehension.
+                      Achieved excellent SEO discoverability and fast page loads with production-ready performance optimization deployed on Vercel.
                       Built a responsive, fluid design ensuring seamless multi-device learning environment.
                     </span>
                   }
@@ -396,7 +396,7 @@ function App() {
                     <span style={{ color: "#4A4A4A" }}>
                       <strong>Tech:</strong> Next.js, React.js, TypeScript, OpenAI APIs, Node.js
                       <br />
-                      Built AI-powered chatbot applications with conversational workflows. 
+                      Built AI-powered chatbot applications with conversational workflows.
                       Improved SEO score from 74 to 95. Integrated payment systems and security features.
                     </span>
                   }
@@ -424,7 +424,7 @@ function App() {
                     <span style={{ color: "#4A4A4A" }}>
                       <strong>Tech:</strong> Shopify, React.js, SEO Optimization
                       <br />
-                      Customized Shopify storefront with responsive UI. 
+                      Customized Shopify storefront with responsive UI.
                       Improved Lighthouse SEO from 70 to 93. Optimized page speed by 40%.
                     </span>
                   }
@@ -448,7 +448,7 @@ function App() {
                     <span style={{ color: "#4A4A4A" }}>
                       <strong>Tech:</strong> React.js, Redux Toolkit, REST APIs, Node.js
                       <br />
-                      Enterprise live tracking and parking management system. 
+                      Enterprise live tracking and parking management system.
                       Real-time API integrations. Reduced code by 35% with reusable architecture.
                     </span>
                   }
