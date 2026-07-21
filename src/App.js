@@ -14,6 +14,9 @@ import {
   SiExpress,
   SiNextdotjs,
   SiVercel,
+  SiTypescript,
+  SiShopify,
+  SiSanity,
 } from "react-icons/si";
 import "./App.css";
 import { Image, Button, Anchor, Flex, Row, Col, Card } from "antd";
@@ -29,14 +32,16 @@ function App() {
     { icon: <FaHtml5 size={50} color="#E44D26" />, name: "HTML5" },
     { icon: <FaCss3Alt size={50} color="#1572B6" />, name: "CSS3" },
     { icon: <FaJs size={50} color="#F7DF1E" />, name: "JavaScript" },
+    { icon: <SiTypescript size={50} color="#3178C6" />, name: "TypeScript" },
     { icon: <SiNextdotjs size={50} color="black" />, name: "Next.js" },
-
     { icon: <FaReact size={50} color="#61DAFB" />, name: "React.js" },
     { icon: <SiRedux size={50} color="#764ABC" />, name: "Redux" },
     { icon: <FaNodeJs size={50} color="#83CD29" />, name: "Node.js" },
     { icon: <SiExpress size={50} color="#000000" />, name: "Express.js" },
     { icon: <SiMongodb size={50} color="#47A248" />, name: "MongoDB" },
     { icon: <FaDatabase size={50} color="#00618A" />, name: "SQL Databases" },
+    { icon: <SiShopify size={50} color="#96bf48" />, name: "Shopify" },
+    { icon: <SiSanity size={50} color="#F03081" />, name: "Sanity CMS" },
     { icon: <FaGitAlt size={50} color="#F05032" />, name: "Git" },
     { icon: <SiVercel size={50} color="black" />, name: "Vercel" },
   ];
@@ -75,7 +80,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-              <h2>Hi, I'm Sandeep Kumar</h2>
+              <h2>Hi, I'm Sandeep Kumar 👋</h2>
 
               {/* Wavy Text Animation */}
               <motion.h1
@@ -87,18 +92,19 @@ function App() {
                 }}
                 style={{ display: "inline-block" }}
               >
-                I build{" "}
+                Full Stack Developer & AI{" "}
                 <span style={{ color: "#5E3BEE" }}>
-                  scalable web applications
-                </span>{" "}
-                with modern technologies.
+                  Integration Specialist
+                </span>
               </motion.h1>
 
               <p style={{ fontSize: "20px" }}>
-                A passionate full-stack developer specializing in building
-                high-performance, user-friendly applications. I turn complex
-                problems into elegant solutions using React, Next.js, Node.js,
-                and more.
+                Results-driven Full Stack Developer with 2+ years of experience building 
+                scalable, AI-powered, SEO-optimized web applications. I specialize in 
+                modern conversational AI platforms, responsive UI systems, and 
+                performance-optimized applications using React.js, Next.js, TypeScript, 
+                Node.js, and more. Immediate Joiner with proven expertise in reducing 
+                development time by 30% through reusable architecture.
               </p>
             </motion.div>
           </Col>
@@ -173,10 +179,26 @@ function App() {
               <h1>
                 Passionate{" "}
                 <span style={{ color: "#5E3BEE" }}>Full-Stack Developer</span>{" "}
-                from Hyderabad
+                from Hyderabad, India
               </h1>
               <p>
-                I have one year of experience at{" "}
+                I'm currently an <strong>Associate Web Developer at{" "}
+                <a
+                  href="https://strayv.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: "#5E3BEE",
+                    textDecoration: "none",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Strayv.ai
+                </a></strong> (Oct 2025–Present), where I develop scalable AI-powered web applications, 
+                build conversational AI platforms, and optimize performance (improved Lighthouse scores from 72 to 94).
+              </p>
+              <p>
+                Previously, I worked as a <strong>Software Engineer Trainee & Frontend Developer</strong> at{" "}
                 <a
                   href="https://hyperthinksys.com/"
                   target="_blank"
@@ -188,32 +210,23 @@ function App() {
                   }}
                 >
                   HyperThink Systems
-                </a>
-                , a tech company based in Bengaluru, where I worked on multiple
-                impactful projects. My expertise includes developing scalable
-                and efficient web applications using modern technologies.
+                </a>{" "}
+                (Oct 2024–Sep 2025), where I developed enterprise dashboards, smart parking systems, 
+                and reduced repeated code by 35% using reusable architecture.
               </p>
-              <h2>Projects I Worked On:</h2>
+              <h2>Key Accomplishments:</h2>
               <ul>
                 <li>
-                  <strong>License Manager:</strong> A system for managing
-                  software licenses, ensuring secure distribution and
-                  activation.
+                  <strong>AI Integration Expertise:</strong> Built AI-powered chatbot systems and conversational workflows using OpenAI APIs
                 </li>
                 <li>
-                  <strong>Smart Parking System:</strong> A real-time parking
-                  management solution using IoT and web technologies to optimize
-                  parking space utilization.
+                  <strong>Performance Optimization:</strong> Improved Lighthouse SEO scores from 72–95 and reduced development time by 30%
                 </li>
                 <li>
-                  <strong>Awan Gas:</strong> A gas distribution platform
-                  designed to streamline the supply chain and delivery process
-                  in the energy sector.
+                  <strong>Enterprise Development:</strong> Developed live tracking modules, smart parking management systems, and enterprise dashboards with real-time API integrations
                 </li>
                 <li>
-                  <strong>Arisio:</strong> The Middle East’s leading startup
-                  collaboration and data platform, connecting entrepreneurs with
-                  investors and industry experts.
+                  <strong>Modern Tech Stack:</strong> Proficient in React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, Shopify, and Sanity CMS
                 </li>
               </ul>
             </motion.div>
@@ -221,6 +234,86 @@ function App() {
         </Row>
       </Flex>
 
+      {/* Experience Section */}
+      <Flex vertical className="experience" style={{ backgroundColor: "#f5f5f5", padding: "50px 20px" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto", width: "100%" }}>
+          <h1 style={{ marginBottom: "40px", color: "#5E3BEE" }}>Professional Experience</h1>
+          
+          <Row gutter={[20, 20]} style={{ marginBottom: "30px" }}>
+            <Col xs={24} sm={24} md={24} lg={24}>
+              <Card style={{ borderLeft: "4px solid #5E3BEE" }}>
+                <Row justify="space-between" align="top">
+                  <Col xs={24} sm={18} md={18}>
+                    <h2 style={{ margin: "0 0 5px 0" }}>Associate Web Developer</h2>
+                    <p style={{ margin: "0 0 10px 0", color: "#5E3BEE", fontWeight: "bold" }}>
+                      Strayv.ai, Hyderabad, India
+                    </p>
+                  </Col>
+                  <Col xs={24} sm={6} md={6} style={{ textAlign: "right" }}>
+                    <p style={{ margin: 0, color: "#4A4A4A" }}>Oct 2025 – Present</p>
+                  </Col>
+                </Row>
+                <ul style={{ marginTop: "10px", color: "#4A4A4A" }}>
+                  <li>Developed scalable and SEO-optimized web applications using Next.js, Shopify, Tailwind CSS, and TypeScript</li>
+                  <li>Built AI-powered chatbot systems and conversational workflows using OpenAI APIs</li>
+                  <li>Improved Lighthouse SEO scores from 72 to 94 through advanced optimization and performance tuning</li>
+                  <li>Integrated Sanity CMS for dynamic content workflows across multiple projects</li>
+                  <li>Reduced development time by 30% using reusable component architecture</li>
+                </ul>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row gutter={[20, 20]} style={{ marginBottom: "30px" }}>
+            <Col xs={24} sm={24} md={24} lg={24}>
+              <Card style={{ borderLeft: "4px solid #5E3BEE" }}>
+                <Row justify="space-between" align="top">
+                  <Col xs={24} sm={18} md={18}>
+                    <h2 style={{ margin: "0 0 5px 0" }}>Software Engineer Trainee</h2>
+                    <p style={{ margin: "0 0 10px 0", color: "#5E3BEE", fontWeight: "bold" }}>
+                      Hyper Think Systems Pvt Ltd, Bengaluru, India
+                    </p>
+                  </Col>
+                  <Col xs={24} sm={6} md={6} style={{ textAlign: "right" }}>
+                    <p style={{ margin: 0, color: "#4A4A4A" }}>Oct 2024 – Sep 2025</p>
+                  </Col>
+                </Row>
+                <ul style={{ marginTop: "10px", color: "#4A4A4A" }}>
+                  <li>Developed enterprise dashboards and scalable frontend systems using React.js, Redux Toolkit, and MUI</li>
+                  <li>Built smart parking systems with real-time API integrations and live tracking functionality</li>
+                  <li>Reduced repeated code by 35% using reusable frontend architecture</li>
+                  <li>Improved application scalability and enhanced responsive UI performance</li>
+                </ul>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row gutter={[20, 20]}>
+            <Col xs={24} sm={24} md={24} lg={24}>
+              <Card style={{ borderLeft: "4px solid #5E3BEE" }}>
+                <Row justify="space-between" align="top">
+                  <Col xs={24} sm={18} md={18}>
+                    <h2 style={{ margin: "0 0 5px 0" }}>Frontend Developer Intern</h2>
+                    <p style={{ margin: "0 0 10px 0", color: "#5E3BEE", fontWeight: "bold" }}>
+                      Hyper Think Systems Pvt Ltd, Bengaluru, India
+                    </p>
+                  </Col>
+                  <Col xs={24} sm={6} md={6} style={{ textAlign: "right" }}>
+                    <p style={{ margin: 0, color: "#4A4A4A" }}>May 2024 – Sep 2024</p>
+                  </Col>
+                </Row>
+                <ul style={{ marginTop: "10px", color: "#4A4A4A" }}>
+                  <li>Developed reusable React.js components and responsive user interfaces for enterprise applications</li>
+                  <li>Integrated REST APIs and optimized frontend workflows, improving performance by 25%</li>
+                  <li>Enhanced UI responsiveness and cross-browser compatibility</li>
+                </ul>
+              </Card>
+            </Col>
+          </Row>
+        </div>
+      </Flex>
+
+      {/* Portfolio & Projects Section */}
       <Flex vertical portFolio id="protifolio" className="portFolio">
         <Flex
           justify="space-between"
@@ -230,7 +323,7 @@ function App() {
         >
           <Flex vertical>
             {" "}
-            <p>Recent projects</p> <h1>my portfolio</h1>{" "}
+            <p>Professional Projects & Achievements</p> <h1>my portfolio</h1>{" "}
           </Flex>
           <Flex vertical>
             {" "}
@@ -239,106 +332,131 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button type="primary">Visit My Git Hub</Button>
+              <Button type="primary">Visit My GitHub</Button>
             </a>
           </Flex>
         </Flex>
 
-        <Row align="space-around" style={{ padding: "10px" }}>
-          <Col xs={20} lg={6}>
-            <Card hoverable cover={<Image alt="example" src={Projectpic} />}>
-              <Card.Meta
-                title={
-                  <a
-                    href="https://recipfront.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
+        <div style={{ padding: "20px", marginBottom: "40px" }}>
+          <h2 style={{ color: "#5E3BEE", marginBottom: "20px" }}>🚀 Standout Personal Project</h2>
+          <Row gutter={[20, 20]}>
+            <Col xs={24} lg={12}>
+              <Card hoverable cover={<Image alt="InterviewPro" src={Projectpic} />} style={{ borderTop: "3px solid #5E3BEE" }}>
+                <Card.Meta
+                  title={
+                    <a
+                      href="https://interviewpro.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: "#5E3BEE",
+                        textDecoration: "none",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      InterviewPro – Interview Prep Platform
+                    </a>
+                  }
+                  description={
+                    <span style={{ color: "#4A4A4A" }}>
+                      <strong>Tech:</strong> Next.js, React.js, TypeScript, Vercel, SEO
+                      <br />
+                      <strong>Impact:</strong> Engineered a modern interview preparation platform focusing on conceptual comprehension. 
+                      Achieved excellent SEO discoverability and fast page loads with production-ready performance optimization deployed on Vercel. 
+                      Built a responsive, fluid design ensuring seamless multi-device learning environment.
+                    </span>
+                  }
+                />
+              </Card>
+            </Col>
+          </Row>
+        </div>
+
+        <div style={{ padding: "20px" }}>
+          <h2 style={{ color: "#5E3BEE", marginBottom: "20px" }}>💼 Professional Projects</h2>
+          <Row align="space-around" style={{ padding: "10px" }} gutter={[20, 20]}>
+            <Col xs={24} lg={8}>
+              <Card hoverable cover={<Image alt="Strayv.ai" src={Projectpic} />}>
+                <Card.Meta
+                  title={
+                    <a
+                      href="https://strayv.ai/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: "#5E3BEE",
+                        textDecoration: "none",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Strayv.ai – AI Chatbot Platform
+                    </a>
+                  }
+                  description={
+                    <span style={{ color: "#4A4A4A" }}>
+                      <strong>Tech:</strong> Next.js, React.js, TypeScript, OpenAI APIs, Node.js
+                      <br />
+                      Built AI-powered chatbot applications with conversational workflows. 
+                      Improved SEO score from 74 to 95. Integrated payment systems and security features.
+                    </span>
+                  }
+                />
+              </Card>
+            </Col>
+            <Col xs={24} lg={8}>
+              <Card hoverable cover={<Image alt="Lulu Powers" src={ProjectPic1} />}>
+                <Card.Meta
+                  title={
+                    <a
+                      href="https://lulupower.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: "#5E3BEE",
+                        textDecoration: "none",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Lulu Powers Shopify Store
+                    </a>
+                  }
+                  description={
+                    <span style={{ color: "#4A4A4A" }}>
+                      <strong>Tech:</strong> Shopify, React.js, SEO Optimization
+                      <br />
+                      Customized Shopify storefront with responsive UI. 
+                      Improved Lighthouse SEO from 70 to 93. Optimized page speed by 40%.
+                    </span>
+                  }
+                />
+              </Card>
+            </Col>
+            <Col xs={24} lg={8}>
+              <Card hoverable cover={<Image alt="Smart Parking" src={ProjectPic2} />}>
+                <Card.Meta
+                  title={
+                    <span style={{
                       color: "#5E3BEE",
                       textDecoration: "none",
                       fontWeight: "bold",
                     }}
-                  >
-                    Omnia (All In One)
-                  </a>
-                }
-                description={
-                  <span style={{ color: "#4A4A4A" }}>
-                    Omnia is an all-in-one app that enables users to sell their
-                    businesses, access news and events, manage transport
-                    services, handle health emergencies, hire manpower, connect
-                    with delivery personnel, and engage in social posts. The
-                    platform is designed to function efficiently based on
-                    pincode and village names, ensuring localized and seamless
-                    service access.
-                  </span>
-                }
-              />
-            </Card>
-          </Col>
-          <Col xs={20} lg={6}>
-            <Card hoverable cover={<Image alt="example" src={ProjectPic1} />}>
-              <Card.Meta
-                title={
-                  <a
-                    href="https://symphonious-eclair-2c8f40.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "#5E3BEE",
-                      textDecoration: "none",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Simple shopping website
-                  </a>
-                }
-                description={
-                  <span style={{ color: "#4A4A4A" }}>
-                    This shopping website is an initial prototype developed to
-                    showcase the fundamental structure and functionality of an
-                    e-commerce platform. Developed a dynamic simple shopping
-                    site using React.js and Node.js. Implemented RESTful API
-                    calls with Axios, ensuring responsiveness and accessibility.
-                    Deployed backend on Render and frontend on Netlify.
-                  </span>
-                }
-              />
-            </Card>
-          </Col>
-          <Col xs={20} lg={6}>
-            <Card hoverable cover={<Image alt="example" src={ProjectPic2} />}>
-              <Card.Meta
-                title={
-                  <a
-                    href="https://sandeepimoje.ccbp.tech/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "#5E3BEE",
-                      textDecoration: "none",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Imoji Game
-                  </a>
-                }
-                description={
-                  <span style={{ color: "#4A4A4A" }}>
-                    I developed an engaging and fun Emoji Game, where players
-                    earn points by clicking on random emojis. Each unique emoji
-                    click increases the score, but if a player clicks the same
-                    emoji twice, the game is over! The game tests memory and
-                    concentration, making it both entertaining and challenging.
-                    With a simple yet addictive design, it encourages players to
-                    beat their high scores while having fun with a variety of
-                    emojis.
-                  </span>
-                }
-              />
-            </Card>
-          </Col>
-        </Row>
+                    >
+                      Smart Parking System
+                    </span>
+                  }
+                  description={
+                    <span style={{ color: "#4A4A4A" }}>
+                      <strong>Tech:</strong> React.js, Redux Toolkit, REST APIs, Node.js
+                      <br />
+                      Enterprise live tracking and parking management system. 
+                      Real-time API integrations. Reduced code by 35% with reusable architecture.
+                    </span>
+                  }
+                />
+              </Card>
+            </Col>
+          </Row>
+        </div>
       </Flex>
     </div>
   );
