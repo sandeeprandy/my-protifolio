@@ -448,7 +448,7 @@ function App() {
                   <Card.Meta
                     title={
                       <a
-                        href="https://interviewpro.vercel.app/"
+                        href="https://interviewpro.pro/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{
