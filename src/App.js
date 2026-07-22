@@ -7,6 +7,8 @@ import {
   FaNodeJs,
   FaDatabase,
   FaGitAlt,
+  FaCode,
+  FaLayerGroup,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -50,6 +52,8 @@ function App() {
     { icon: <SiSanity size={50} color="#F03081" />, name: "Sanity CMS" },
     { icon: <FaGitAlt size={50} color="#F05032" />, name: "Git" },
     { icon: <SiVercel size={50} color="black" />, name: "Vercel" },
+    { icon: <FaCode size={50} color="#FF6B9D" />, name: "DSA" },
+    { icon: <FaLayerGroup size={50} color="#4A90E2" />, name: "System Design" },
   ];
 
   return (
@@ -66,15 +70,27 @@ function App() {
             { key: "aboutMe", href: "#aboutMe", title: "About me" },
           ]}
         />
-        <Button type="primary">
-          <a
-            href="https://drive.google.com/file/d/1GyFF8-BGM49sXHtn8GpHv9xEaG8RBgmO/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            My Resume
-          </a>
-        </Button>
+        <Flex gap="middle">
+          <Button type="primary">
+            <a
+              href="https://drive.google.com/file/d/1GyFF8-BGM49sXHtn8GpHv9xEaG8RBgmO/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My Resume
+            </a>
+          </Button>
+          <Button type="default">
+            <a
+              href="https://leetcode.com/u/sandeeprandy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#5E3BEE", fontWeight: "bold" }}
+            >
+              LeetCode
+            </a>
+          </Button>
+        </Flex>
       </Flex>
 
       <Flex className="homepage" id="Home">
@@ -432,7 +448,7 @@ function App() {
                   <Card.Meta
                     title={
                       <a
-                        href="https://interviewpro.vercel.app/"
+                        href="https://interviewpro.pro/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{
